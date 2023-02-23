@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class Player : MonoBehaviour
 {
@@ -12,8 +13,8 @@ public class Player : MonoBehaviour
     private Animator animator; // Reference to the Animator component
     private CharacterController controller; // Reference to the CharacterController component
     private Vector3 movement; // Vector to store the character's movement
-    private float gravity = -9.81f; // Gravity value to apply to the character
-
+    private float gravity = 10f; // Gravity value to apply to the character
+    private Vector3 moveDirection;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,10 +29,10 @@ public class Player : MonoBehaviour
         bool isGrounded = Physics.CheckSphere(groundCheck.position, groundCheckRadius, whatIsGround);
 
         // Get horizontal movement input (left/right arrow keys)
-        float horizontalMovement = Input.GetAxis("Horizontal");
+        float horizontalMovement = Input.GetAxisRaw("Horizontal");
 
         // Get vertical movement input (up/down arrow keys)
-        float verticalMovement = Input.GetAxis("Vertical");
+        float verticalMovement = Input.GetAxisRaw("Vertical");
 
         // Create a vector with the movement inputs (ignoring the y-axis)
         movement = new Vector3(horizontalMovement, 0f, verticalMovement);
@@ -52,12 +53,11 @@ public class Player : MonoBehaviour
             // Set the "isWalking" parameter in the Animator to false when the movement vector has a zero magnitude
             animator.SetBool("isWalking", false);
         }
-
         // Jump action
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             animator.SetTrigger("jump"); // Set the "jump" trigger in the Animator to play the "Jump" animation
-            movement.y = Mathf.Sqrt(jumpForce * -2f * gravity); // Calculate the upward velocity needed for the character to jump
+            movement.y = Mathf.Sqrt(jumpForce * 2f * gravity); // Calculate the upward velocity needed for the character to jump
         }
 
         // Set the "jump" parameter in the Animator to false when the character is grounded
@@ -65,7 +65,13 @@ public class Player : MonoBehaviour
         {
             animator.SetBool("jump", false);
         }
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            Vector3 playerDirection = transform.forward;
 
+            moveDirection = playerDirection * 2f;
+            controller.Move(moveDirection);
+        }
         // Apply gravity to the movement vector
         movement.y += gravity * Time.deltaTime;
 
