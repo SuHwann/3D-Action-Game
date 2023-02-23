@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.10f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/GitProject/3D-Action-Game/3D Action Game
+D:/GitProject/3D-Action-Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62371
-Successfully changed project path to: D:/GitProject/3D-Action-Game/3D Action Game
-D:/GitProject/3D-Action-Game/3D Action Game
+63642
+Successfully changed project path to: D:/GitProject/3D-Action-Game
+D:/GitProject/3D-Action-Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,11 +47,11 @@ D:/GitProject/3D-Action-Game/3D Action Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 92.54 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 94.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/GitProject/3D-Action-Game/3D Action Game/Assets
+[Subsystems] Discovering subsystems at path D:/GitProject/3D-Action-Game/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -63,92 +63,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56548
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008764 seconds.
+Registered in 0.009533 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 96.85 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 105.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.845 seconds
+- Completed reload, in  0.902 seconds
 Domain Reload Profiling:
-	ReloadAssembly (846ms)
-		BeginReloadAssembly (109ms)
+	ReloadAssembly (902ms)
+		BeginReloadAssembly (91ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (597ms)
-			LoadAssemblies (105ms)
+		EndReloadAssembly (668ms)
+			LoadAssemblies (88ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (155ms)
+			SetupTypeCache (142ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (348ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (419ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (72ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (97ms)
+				InitializePlatformSupportModulesInManaged (103ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (106ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (112ms)
-				ProcessInitializeOnLoadMethodAttributes (64ms)
+				ProcessInitializeOnLoadAttributes (133ms)
+				ProcessInitializeOnLoadMethodAttributes (75ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008167 seconds.
+Registered in 0.009032 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\GitProject\3D-Action-Game\3D Action Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\GitProject\3D-Action-Game\3D Action Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\GitProject\3D-Action-Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GitProject\3D-Action-Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.539 seconds
+- Completed reload, in  1.640 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1540ms)
-		BeginReloadAssembly (355ms)
+	ReloadAssembly (1641ms)
+		BeginReloadAssembly (270ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (187ms)
-		EndReloadAssembly (1010ms)
-			LoadAssemblies (164ms)
+			CreateAndSetChildDomain (139ms)
+		EndReloadAssembly (1196ms)
+			LoadAssemblies (138ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (350ms)
+			SetupTypeCache (375ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (424ms)
+			RebuildScriptCaches (109ms)
+			SetupLoadedEditorAssemblies (497ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
+				InitializePlatformSupportModulesInManaged (23ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (103ms)
-				ProcessInitializeOnLoadAttributes (256ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
-				AfterProcessingInitializeOnLoad (12ms)
+				BeforeProcessingInitializeOnLoad (129ms)
+				ProcessInitializeOnLoadAttributes (296ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (113.5 KB). Loaded Objects now: 3839.
-Memory consumption went from 120.6 MB to 120.5 MB.
-Total: 4.683000 ms (FindLiveObjects: 0.268800 ms CreateObjectMapping: 0.191700 ms MarkObjects: 4.107800 ms  DeleteObjects: 0.113700 ms)
+Unloading 26 unused Assets / (87.7 KB). Loaded Objects now: 3840.
+Memory consumption went from 120.7 MB to 120.6 MB.
+Total: 4.370100 ms (FindLiveObjects: 0.283500 ms CreateObjectMapping: 0.195700 ms MarkObjects: 3.698400 ms  DeleteObjects: 0.190000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -162,77 +162,164 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 657351.863625 seconds.
-  path: Assets/Script
-  artifactKey: Guid(4f760c9a62fc4d149a53c0b2580dc73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script using Guid(4f760c9a62fc4d149a53c0b2580dc73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a41571d3c9ea0cbc673b78a2d74f2ba9') in 0.009940 seconds 
+  Time since last request: 664088.317008 seconds.
+  path: Assets/Character/DeadPool.fbx
+  artifactKey: Guid(d61810b13182d3d4babac84410e8a819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/DeadPool.fbx using Guid(d61810b13182d3d4babac84410e8a819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34812197585b5966d5f903f04a595e8b') in 0.280583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 195.037822 seconds.
+  path: Assets/Character/DeadPool Variant.prefab
+  artifactKey: Guid(3f43be874e3a51f40bee11c12150a4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/DeadPool Variant.prefab using Guid(3f43be874e3a51f40bee11c12150a4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ffadd49cda219df16867f89a2640c2a') in 0.084876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 766.531872 seconds.
+  path: Assets/Character/DeadPool.fbx
+  artifactKey: Guid(d61810b13182d3d4babac84410e8a819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/DeadPool.fbx using Guid(d61810b13182d3d4babac84410e8a819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '347d616600e9944b50c6b7ac18422a19') in 0.093512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Character/DeadPool Variant.prefab
+  artifactKey: Guid(3f43be874e3a51f40bee11c12150a4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/DeadPool Variant.prefab using Guid(3f43be874e3a51f40bee11c12150a4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9123fd6fad7f3e58302ea343d369948') in 0.029610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 198.571440 seconds.
+  path: Assets/Character/DeadPool.fbx
+  artifactKey: Guid(d61810b13182d3d4babac84410e8a819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/DeadPool.fbx using Guid(d61810b13182d3d4babac84410e8a819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e6607f8687629a6b248f5e5f4b2083b') in 0.103494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Character/DeadPool Variant.prefab
+  artifactKey: Guid(3f43be874e3a51f40bee11c12150a4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/DeadPool Variant.prefab using Guid(3f43be874e3a51f40bee11c12150a4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2f2ce9ea059d82a9765b2aad0de3b6d') in 0.028604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.375290 seconds.
+  path: Assets/Character/uploads_files_3531496_Deadpool.obj
+  artifactKey: Guid(44638a0610247af40bbe922c2cfe1cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3531496_Deadpool.obj using Guid(44638a0610247af40bbe922c2cfe1cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a2cfd3f786e0ea7815b17298414db31') in 0.058086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.265701 seconds.
+  path: Assets/Character/DeadPool.fbx
+  artifactKey: Guid(d61810b13182d3d4babac84410e8a819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/DeadPool.fbx using Guid(d61810b13182d3d4babac84410e8a819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d69ee69452d263f49acb8d550c65ca') in 0.096133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Character/DeadPool Variant.prefab
+  artifactKey: Guid(3f43be874e3a51f40bee11c12150a4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/DeadPool Variant.prefab using Guid(3f43be874e3a51f40bee11c12150a4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c0f6d9e9930e8424bf89d2657e2219') in 0.028513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.872302 seconds.
+  path: Assets/Character/DeadPool.fbx
+  artifactKey: Guid(d61810b13182d3d4babac84410e8a819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/DeadPool.fbx using Guid(d61810b13182d3d4babac84410e8a819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '501db6df1e2712ea35e6c7eedc657eda') in 0.087668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Character/DeadPool Variant.prefab
+  artifactKey: Guid(3f43be874e3a51f40bee11c12150a4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/DeadPool Variant.prefab using Guid(3f43be874e3a51f40bee11c12150a4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '497c416c63308cd59db987ae7e2583d1') in 0.032823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.583425 seconds.
+  path: Assets/Character/uploads_files_3531496_Deadpool.obj
+  artifactKey: Guid(44638a0610247af40bbe922c2cfe1cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3531496_Deadpool.obj using Guid(44638a0610247af40bbe922c2cfe1cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '541c786569a7a1fffd1487bc6893f421') in 0.040802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.581167 seconds.
+  path: Assets/Character/uploads_files_3531496_Deadpool.obj
+  artifactKey: Guid(44638a0610247af40bbe922c2cfe1cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3531496_Deadpool.obj using Guid(44638a0610247af40bbe922c2cfe1cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7968a6270a9845140d6941518b08220') in 0.033341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.286538 seconds.
+  path: Assets/Character/uploads_files_3531496_Deadpool.obj
+  artifactKey: Guid(44638a0610247af40bbe922c2cfe1cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3531496_Deadpool.obj using Guid(44638a0610247af40bbe922c2cfe1cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcfefdbbce52b7435c85bfedcbfcf56b') in 0.031697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.491302 seconds.
+  path: Assets/Character/DeadPool.fbx
+  artifactKey: Guid(d61810b13182d3d4babac84410e8a819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/DeadPool.fbx using Guid(d61810b13182d3d4babac84410e8a819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39239ebfb17cb540a33027cc67a44436') in 0.121621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Character/DeadPool Variant.prefab
+  artifactKey: Guid(3f43be874e3a51f40bee11c12150a4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/DeadPool Variant.prefab using Guid(3f43be874e3a51f40bee11c12150a4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '337ad84957a9c3e7a1eb6747da0c0adf') in 0.033718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.111664 seconds.
+  path: Assets/Character/DeadPool.fbx
+  artifactKey: Guid(d61810b13182d3d4babac84410e8a819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/DeadPool.fbx using Guid(d61810b13182d3d4babac84410e8a819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62865d98e42df8554fe5fc5946a2c94a') in 0.086998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Character/DeadPool Variant.prefab
+  artifactKey: Guid(3f43be874e3a51f40bee11c12150a4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/DeadPool Variant.prefab using Guid(3f43be874e3a51f40bee11c12150a4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e52be3c86569b38d86e65bb7ba737ee') in 0.028056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 926.116986 seconds.
+  path: Assets/Character/Ch44_nonPBR@Hook.fbx
+  artifactKey: Guid(1000ae472089bfc4c90e8ea324a3d341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Ch44_nonPBR@Hook.fbx using Guid(1000ae472089bfc4c90e8ea324a3d341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dde57935fe47901378dd3bdc7165c7ba') in 0.056571 seconds 
 ========================================================================
 Received Prepare
-Couldn't register non-exiting asset root folder: 'Assets'
-Assertion failed on expression: 'success'
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
 Registering precompiled user dll's ...
-Registered in 0.006830 seconds.
+Registered in 0.030825 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\GitProject\3D-Action-Game\3D Action Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\GitProject\3D-Action-Game\3D Action Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\GitProject\3D-Action-Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GitProject\3D-Action-Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.178 seconds
+- Completed reload, in  1.468 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1179ms)
-		BeginReloadAssembly (158ms)
+	ReloadAssembly (1469ms)
+		BeginReloadAssembly (191ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (909ms)
-			LoadAssemblies (104ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (1068ms)
+			LoadAssemblies (173ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (328ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (368ms)
+			SetupTypeCache (347ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (454ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (33ms)
+				InitializePlatformSupportModulesInManaged (27ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (216ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (297ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.71 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.35 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3254 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (54.1 KB). Loaded Objects now: 3842.
-Memory consumption went from 117.9 MB to 117.9 MB.
-Total: 4.265600 ms (FindLiveObjects: 0.232400 ms CreateObjectMapping: 0.140000 ms MarkObjects: 3.832700 ms  DeleteObjects: 0.059100 ms)
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (54.0 KB). Loaded Objects now: 3888.
+Memory consumption went from 138.2 MB to 138.1 MB.
+Total: 3.461100 ms (FindLiveObjects: 0.251500 ms CreateObjectMapping: 0.256600 ms MarkObjects: 2.878700 ms  DeleteObjects: 0.073100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -244,3 +331,1300 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 134.688221 seconds.
+  path: Assets/Character/uploads_files_3531496_textures/Body.mat
+  artifactKey: Guid(b8bf8dd299aeaba45b507d91a88fa95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3531496_textures/Body.mat using Guid(b8bf8dd299aeaba45b507d91a88fa95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a486aa3ad734c4a498d7aba7acef3b79') in 0.100354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Character/uploads_files_3531496_textures/Katana.mat
+  artifactKey: Guid(1a0da81a09bebb04395fbd39d08632e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3531496_textures/Katana.mat using Guid(1a0da81a09bebb04395fbd39d08632e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e78744b4d47cd06a8661a4a1e3f4fdf6') in 0.018556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Character/uploads_files_3531496_textures/Head.mat
+  artifactKey: Guid(dc8df190f50bcf546aafeffc2ebcaf28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3531496_textures/Head.mat using Guid(dc8df190f50bcf546aafeffc2ebcaf28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65abc4a9d32122f3aebf76dba1a048de') in 0.018836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Character/uploads_files_3531496_textures/Katana_normals.tga
+  artifactKey: Guid(8745a9e6e06b8064197471bddb15150f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3531496_textures/Katana_normals.tga using Guid(8745a9e6e06b8064197471bddb15150f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c938878d6dac88cc331ceed76c9f51f3') in 0.039413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.021438 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/INTEGRATED SUIT new.fbx
+  artifactKey: Guid(5b76122740eca6b478e73c30e5ec815a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/INTEGRATED SUIT new.fbx using Guid(5b76122740eca6b478e73c30e5ec815a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '377e025cf4dfa03c81c70259d4b18c64') in 0.141480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/INTEGRATED SUIT new.obj
+  artifactKey: Guid(b2a0ce05b1117ff43bf8f03bf728bb85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/INTEGRATED SUIT new.obj using Guid(b2a0ce05b1117ff43bf8f03bf728bb85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b57b6a70eb52b0ddc0538a37d1fc2dc') in 0.031963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.463688 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/readme.txt
+  artifactKey: Guid(5fc877680778e564eb4159f14660a90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/readme.txt using Guid(5fc877680778e564eb4159f14660a90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b2eaeb9b0535918a72661474fd034dc') in 0.016216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.693573 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/INTEGRATED SUIT new.fbx
+  artifactKey: Guid(5b76122740eca6b478e73c30e5ec815a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/INTEGRATED SUIT new.fbx using Guid(5b76122740eca6b478e73c30e5ec815a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed770c967a831c7825a401b8d358feb') in 0.388597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.874929 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures
+  artifactKey: Guid(d6a5500fbb6c8a4448c6953215fc18b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures using Guid(d6a5500fbb6c8a4448c6953215fc18b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b1fb0a345b59f1a979b7201af61d55') in 0.007935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.068458 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Eyes_Material.004_BaseColor.1001.png
+  artifactKey: Guid(841407143d9c5354da25857782ab8fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Eyes_Material.004_BaseColor.1001.png using Guid(841407143d9c5354da25857782ab8fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a79beff20e676ef0b8c927dcd725abb') in 0.021838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Eyes_Material.004_Roughness.1001.png
+  artifactKey: Guid(4656cd551805ffb4386a1800aa97ff14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Eyes_Material.004_Roughness.1001.png using Guid(4656cd551805ffb4386a1800aa97ff14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '121a9acc2cb9dc94c99753f6d797354a') in 0.019478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_BaseColor.1009.png
+  artifactKey: Guid(065011c4293054c4e9babe39149cbbda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_BaseColor.1009.png using Guid(065011c4293054c4e9babe39149cbbda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29efc1bd7b5e3df32230527f56dbd4e2') in 0.020380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_BaseColor.1007.png
+  artifactKey: Guid(ae57053f98fa1124b862116773f40a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_BaseColor.1007.png using Guid(ae57053f98fa1124b862116773f40a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '748f9f7ec8abab7790672190cb1423af') in 0.018936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_BaseColor.1002.png
+  artifactKey: Guid(0f1fe38dc60290f47871845eec421a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_BaseColor.1002.png using Guid(0f1fe38dc60290f47871845eec421a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '242e67ed4fc472d5fe2fad4a831ade2e') in 0.017706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_BaseColor.1005.png
+  artifactKey: Guid(dea23799c3ed3624fa7603da0e75cb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_BaseColor.1005.png using Guid(dea23799c3ed3624fa7603da0e75cb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6216d1970b7640c55d679e329f4cf741') in 0.018307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_BaseColor.1006.png
+  artifactKey: Guid(03149e1a8986e0d49b17a60030c00cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_BaseColor.1006.png using Guid(03149e1a8986e0d49b17a60030c00cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a4d117ecc6f5319b602bc3377a7cc6a') in 0.018375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_BaseColor.1010.png
+  artifactKey: Guid(005544339d118534c9f8438d92c1be22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_BaseColor.1010.png using Guid(005544339d118534c9f8438d92c1be22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c1dc34d14931656c1a36d8ed054204') in 0.027128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Eyes_Material.004_Metallic.1001.png
+  artifactKey: Guid(9a0a4342bc043a9499b5a0359ae5969e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Eyes_Material.004_Metallic.1001.png using Guid(9a0a4342bc043a9499b5a0359ae5969e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92c5e5efa5acdf7ee3f3b7db126deac0') in 0.015155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_BaseColor.1001.png
+  artifactKey: Guid(428ee461b6494a5438c87abbbc7eec9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_BaseColor.1001.png using Guid(428ee461b6494a5438c87abbbc7eec9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '163a3d8d54b3867997ab47bbb519c313') in 0.016419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_BaseColor.1003.png
+  artifactKey: Guid(843ef7e745f6f644e860bc78e30f7101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_BaseColor.1003.png using Guid(843ef7e745f6f644e860bc78e30f7101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b36b123035344a224265efe4f91974e4') in 0.021891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_BaseColor.1004.png
+  artifactKey: Guid(9ef48aa1125abb34aa891248c6d8c1cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_BaseColor.1004.png using Guid(9ef48aa1125abb34aa891248c6d8c1cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b7a2857e0e7df5aa048e19616982bf9') in 0.019679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Eyes_Material.004_Normal.1001.png
+  artifactKey: Guid(61a4431e008b9804e81116646f8b552f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Eyes_Material.004_Normal.1001.png using Guid(61a4431e008b9804e81116646f8b552f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcead5c4117c1bde57f1e792ed3286c6') in 0.016535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_BaseColor.1008.png
+  artifactKey: Guid(cb9a070754b5bb44989c6a144d8fc9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_BaseColor.1008.png using Guid(cb9a070754b5bb44989c6a144d8fc9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9342e59a7f50fe284441fe87d7edf803') in 0.015929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.636142 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Emissive.1001.png
+  artifactKey: Guid(2918bf12840b7754e95f164008e6d7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Emissive.1001.png using Guid(2918bf12840b7754e95f164008e6d7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebf0b26c0f970be4bc914610f07e3e90') in 0.015665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Emissive.1002.png
+  artifactKey: Guid(ae949e887b8d37c4dbf266e0070807f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Emissive.1002.png using Guid(ae949e887b8d37c4dbf266e0070807f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9698e52bbe7c40cc176fbe2f43541065') in 0.016644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.041860 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Emissive.1003.png
+  artifactKey: Guid(c0d624f2e321003478c9dac72d3b8c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Emissive.1003.png using Guid(c0d624f2e321003478c9dac72d3b8c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4a71ceefb867281779cbb82a26246b8') in 0.014266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Emissive.1004.png
+  artifactKey: Guid(472d422d0125b354e89118980e8bb842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Emissive.1004.png using Guid(472d422d0125b354e89118980e8bb842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '523ba1e4629635d02fe54c862b3719c2') in 0.015205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Emissive.1005.png
+  artifactKey: Guid(6861a3c7a323aad429e3b9ac77e32c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Emissive.1005.png using Guid(6861a3c7a323aad429e3b9ac77e32c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24c1a6e2003dc5ebf91585289ddd8cf1') in 0.016734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Emissive.1006.png
+  artifactKey: Guid(f40eb760fce7e5b4ab352e79a6c6dd31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Emissive.1006.png using Guid(f40eb760fce7e5b4ab352e79a6c6dd31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d4bcd190a045cbdb020222c7703bdca') in 0.017841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.383029 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Emissive.1007.png
+  artifactKey: Guid(54ee1676b705322469308ab7217d0435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Emissive.1007.png using Guid(54ee1676b705322469308ab7217d0435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4c3870b53dff073b24fc9a19dff0a7d') in 0.032355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Emissive.1010.png
+  artifactKey: Guid(769a1550cdd99c349b3224bd20dfe9e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Emissive.1010.png using Guid(769a1550cdd99c349b3224bd20dfe9e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6633422c0a2e73f951d3dac07e1bf6c') in 0.017967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Emissive.1009.png
+  artifactKey: Guid(556e8de0f6549dd4faec849368bf1515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Emissive.1009.png using Guid(556e8de0f6549dd4faec849368bf1515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfcc2d98f4e5580b4c4eba9a80dbb37f') in 0.014556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Height.1002.png
+  artifactKey: Guid(a818b51613aaf334eb2b4e110b8e8f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Height.1002.png using Guid(a818b51613aaf334eb2b4e110b8e8f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7640f2d37fcea4ca20ee36dfb476524') in 0.017462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Height.1004.png
+  artifactKey: Guid(b390742bced8d394f8144ef405ddbc9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Height.1004.png using Guid(b390742bced8d394f8144ef405ddbc9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e47ff1d614e512cc6f3fae4ecfa5eb2d') in 0.018128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Height.1001.png
+  artifactKey: Guid(68b919368808c6a4099a293fa677621d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Height.1001.png using Guid(68b919368808c6a4099a293fa677621d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67ba74fbea391c0671a19e3671ec53d2') in 0.016045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Height.1003.png
+  artifactKey: Guid(8f5b0fc2be8ccc24c93555bece5d9810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Height.1003.png using Guid(8f5b0fc2be8ccc24c93555bece5d9810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f912bdb2bcc8016cf906ccc70fc2c2e6') in 0.018618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Emissive.1008.png
+  artifactKey: Guid(25cbcc04a7c7f5d4c8cdee554fcdec5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Emissive.1008.png using Guid(25cbcc04a7c7f5d4c8cdee554fcdec5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eeef531b9887a94ac9c9158f70743b0') in 0.014740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.211823 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Height.1005.png
+  artifactKey: Guid(9d0f4f574b2b9a742a91986ef2f8fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Height.1005.png using Guid(9d0f4f574b2b9a742a91986ef2f8fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13186110029ada762641360d8b623d13') in 0.016633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Height.1007.png
+  artifactKey: Guid(23796f8f3139b444197ebd71e7c5b004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Height.1007.png using Guid(23796f8f3139b444197ebd71e7c5b004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe92770351e4a37bec9899f0a11f1ce') in 0.024639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Height.1009.png
+  artifactKey: Guid(477e760a993afd34289df7677aa056b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Height.1009.png using Guid(477e760a993afd34289df7677aa056b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d4760c8c03c7ea65e6916280853fee') in 0.016497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Height.1010.png
+  artifactKey: Guid(b9de69f6295f9ac47a02fa5628874d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Height.1010.png using Guid(b9de69f6295f9ac47a02fa5628874d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afaa3ad31d07e6a2a2834ae8081e21b9') in 0.018049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Height.1006.png
+  artifactKey: Guid(14a8135e5216f7e4d8c331eb53a1db7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Height.1006.png using Guid(14a8135e5216f7e4d8c331eb53a1db7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22ace9ea0750f2dfbc95f04e59a42101') in 0.017541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Height.1008.png
+  artifactKey: Guid(40aab038494256940bdf83f0c336b679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Height.1008.png using Guid(40aab038494256940bdf83f0c336b679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be609226831a7c94950e946bc584706d') in 0.016871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.511700 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Metallic.1001.png
+  artifactKey: Guid(d191bb782d72d2d4bbc90a0df57074f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Metallic.1001.png using Guid(d191bb782d72d2d4bbc90a0df57074f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7e79f4f020dda65701fe78d5ec14d60') in 0.016970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Metallic.1003.png
+  artifactKey: Guid(fa8c64b4c3cf45c42ba171d1b514aa96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Metallic.1003.png using Guid(fa8c64b4c3cf45c42ba171d1b514aa96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41537ab41f749e44097fab66a1156c2e') in 0.019598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Metallic.1005.png
+  artifactKey: Guid(22a31873c05ca6f4abd23c8f024daad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Metallic.1005.png using Guid(22a31873c05ca6f4abd23c8f024daad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c45c40d348973938bdb216f99a589e1') in 0.020227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Normal.1003.png
+  artifactKey: Guid(c4069eaeefa6f1a4f9b81631da2a46a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Normal.1003.png using Guid(c4069eaeefa6f1a4f9b81631da2a46a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3596360bc24ccb97d7f4fe668b87bbb3') in 0.019512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Normal.1007.png
+  artifactKey: Guid(60669daaf18034f48ab7c9cbad40061d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Normal.1007.png using Guid(60669daaf18034f48ab7c9cbad40061d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46400d3d1a3e5324ab800ec912901d8a') in 0.017553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Roughness.1010.png
+  artifactKey: Guid(b3d6fb41faef9554cabd5240ac71a272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Roughness.1010.png using Guid(b3d6fb41faef9554cabd5240ac71a272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a654eb9ef5315b72f5e9b736cc8d94b9') in 0.016611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Roughness.1009.png
+  artifactKey: Guid(cb986478d3b0e1e4a838b176402c423f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Roughness.1009.png using Guid(cb986478d3b0e1e4a838b176402c423f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40c0909fa8a919656b4208b201b87726') in 0.017211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Metallic.1007.png
+  artifactKey: Guid(1e011e1f8484f424cb19b3b50465d789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Metallic.1007.png using Guid(1e011e1f8484f424cb19b3b50465d789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62398e06c974769c3fce17a3a180bb3f') in 0.018575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Normal.1002.png
+  artifactKey: Guid(f2e302c5f66eea5429cd1a87543c5b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Normal.1002.png using Guid(f2e302c5f66eea5429cd1a87543c5b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74fcd4fae03ffb8b89848380d539713a') in 0.016721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Webshooter_D.png
+  artifactKey: Guid(7579a5fd36074bc4fa903aa544014456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Webshooter_D.png using Guid(7579a5fd36074bc4fa903aa544014456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '472bddf37a981bebd7247b5c8fcffb36') in 0.016748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Normal.1008.png
+  artifactKey: Guid(db9996e539c7b414a9153fffe08e8838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Normal.1008.png using Guid(db9996e539c7b414a9153fffe08e8838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59aebcf12d251e48344c352b33a2fe2b') in 0.017439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Webshooters N.png
+  artifactKey: Guid(ba2c16fa1a22a464aabe415a0b5848e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Webshooters N.png using Guid(ba2c16fa1a22a464aabe415a0b5848e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c06280139d52b8766549de2c31c60985') in 0.017600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Normal.1009.png
+  artifactKey: Guid(8518f4a49dd24b94aa8a4af9000995a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Normal.1009.png using Guid(8518f4a49dd24b94aa8a4af9000995a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bad173a90a5896c09959849e3a9bcb2') in 0.017544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Roughness.1008.png
+  artifactKey: Guid(266b3b7cf0f958d4cb822aeaa6cd6576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Roughness.1008.png using Guid(266b3b7cf0f958d4cb822aeaa6cd6576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd894624d0f883997e5548c15f1d91d4d') in 0.014505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Metallic.1002.png
+  artifactKey: Guid(3220ca94e49d3564099e983062515859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Metallic.1002.png using Guid(3220ca94e49d3564099e983062515859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46fe00aa69313c5f3278ed662658b0a') in 0.017094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Roughness.1002.png
+  artifactKey: Guid(8e3e7f9a92e5ac34a83d6b6997d1fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Roughness.1002.png using Guid(8e3e7f9a92e5ac34a83d6b6997d1fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7963acdef24b01b322ff4abd81c099c7') in 0.017256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Roughness.1004.png
+  artifactKey: Guid(ee17404d27f10264cad396add19b37ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Roughness.1004.png using Guid(ee17404d27f10264cad396add19b37ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a5b35ca217cf6eda7ab74a61b20bcb') in 0.023785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Normal.1005.png
+  artifactKey: Guid(1907011fbf127b14199f9a486070c81a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Normal.1005.png using Guid(1907011fbf127b14199f9a486070c81a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190f835f177b2b624b34a582001b4bdc') in 0.016247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Normal.1010.png
+  artifactKey: Guid(6934df79133d7c54dbe78bf5e210cb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Normal.1010.png using Guid(6934df79133d7c54dbe78bf5e210cb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf84eb8a7ab58588880df6ca07dbfbe9') in 0.025515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Metallic.1009.png
+  artifactKey: Guid(bb15756cd8fb3aa4b8cd1141e902b7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Metallic.1009.png using Guid(bb15756cd8fb3aa4b8cd1141e902b7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a4fca3610f4d5ee7e2cf497c978e45') in 0.016076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Roughness.1001.png
+  artifactKey: Guid(6c577ce61bca25a4b9d5e44d39268b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Roughness.1001.png using Guid(6c577ce61bca25a4b9d5e44d39268b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32df49a8e568dbcf91befcac1487c9a2') in 0.018756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Metallic.1010.png
+  artifactKey: Guid(e9fc16cbac2b8b944bb01ee724363107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Metallic.1010.png using Guid(e9fc16cbac2b8b944bb01ee724363107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d03a9c93fccf1f87deffd2f8582b47b') in 0.015928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Normal.1004.png
+  artifactKey: Guid(bfb9107f89675f84bb95ce59263ac780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Normal.1004.png using Guid(bfb9107f89675f84bb95ce59263ac780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45317d795d7bcc121c6baa0924ed7ad7') in 0.017111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Roughness.1003.png
+  artifactKey: Guid(cd7005eeb6f58ef44b5a7ac6cf1276c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Roughness.1003.png using Guid(cd7005eeb6f58ef44b5a7ac6cf1276c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af8cc20ab29d60cf5e6fc6cb85ff4f2d') in 0.015186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Metallic.1006.png
+  artifactKey: Guid(c182b754b4bfca3449c30b2c58ad2fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Metallic.1006.png using Guid(c182b754b4bfca3449c30b2c58ad2fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ab5a81c49819643f22bfa11dc6b45d') in 0.016731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Roughness.1005.png
+  artifactKey: Guid(787dacecedb71cd438e3f8e6b68ed914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Roughness.1005.png using Guid(787dacecedb71cd438e3f8e6b68ed914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c827b47149aace3afb54ec36506b322') in 0.016560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Normal.1001.png
+  artifactKey: Guid(3511b96dd23f07d4da5bd0880cd06412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Normal.1001.png using Guid(3511b96dd23f07d4da5bd0880cd06412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4bc3c95bd7e6493e5c07f65d26c686d') in 0.017041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Normal.1006.png
+  artifactKey: Guid(22b0dc594984b1f4f8705d44d638cdd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Normal.1006.png using Guid(22b0dc594984b1f4f8705d44d638cdd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51353c6bc3ee6cf89122adaba58a86ff') in 0.016956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Roughness.1007.png
+  artifactKey: Guid(d0d38898cfad4b14bb143c568689aeb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Roughness.1007.png using Guid(d0d38898cfad4b14bb143c568689aeb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13a476ddc4b65098b0e27af8ba792aab') in 0.016979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Metallic.1004.png
+  artifactKey: Guid(fa23c4602387c1c4284edf33e2ef1ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Metallic.1004.png using Guid(fa23c4602387c1c4284edf33e2ef1ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3ba238e9a8cbbffe6b431341b96fd18') in 0.016675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Metallic.1008.png
+  artifactKey: Guid(9c99fb9670499be4e84c5b06c3a40fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Metallic.1008.png using Guid(9c99fb9670499be4e84c5b06c3a40fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e888565405ffdba3443635154b79860') in 0.018506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Roughness.1006.png
+  artifactKey: Guid(1e0208e8c1de28548b7db961fff649f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Tom Holland Spider-man12_Spider-man Suit New UV_Roughness.1006.png using Guid(1e0208e8c1de28548b7db961fff649f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21b25de63e097c1b49c18cbd6550b390') in 0.018205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.636531 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Mask
+  artifactKey: Guid(bbeb44d68a7edc54d8a4603c03f096bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Mask using Guid(bbeb44d68a7edc54d8a4603c03f096bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6980034c797cc2cc5fc161a5a105d89') in 0.006272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.049840 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Mask/Tom Holland Spider-man12_Spider-man Suit New UV_BaseColor.1001.png
+  artifactKey: Guid(8d31e2553cb2e534b827aefe7c6f9f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Mask/Tom Holland Spider-man12_Spider-man Suit New UV_BaseColor.1001.png using Guid(8d31e2553cb2e534b827aefe7c6f9f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a9e3ee25e65c5f75826dc3412fb09fb') in 0.015104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Mask/Tom Holland Spider-man12_Spider-man Suit New UV_BaseColor.1002.png
+  artifactKey: Guid(1371cbc592aad3147a350746c17f75ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Mask/Tom Holland Spider-man12_Spider-man Suit New UV_BaseColor.1002.png using Guid(1371cbc592aad3147a350746c17f75ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4949e1d0ede37643e1a8d3b80fa498f8') in 0.014489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Mask/Tom Holland Spider-man12_Spider-man Suit New UV_BaseColor.1009.png
+  artifactKey: Guid(4cd40ab1144aca3419e5c8f1dc884ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Mask/Tom Holland Spider-man12_Spider-man Suit New UV_BaseColor.1009.png using Guid(4cd40ab1144aca3419e5c8f1dc884ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3815a3f6054543223d9d9a1638719cf5') in 0.017316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Mask/Tom Holland Spider-man12_Spider-man Suit New UV_BaseColor.1008.png
+  artifactKey: Guid(1c1a9b8158d58d04fa7b7f27d6dfa155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Mask/Tom Holland Spider-man12_Spider-man Suit New UV_BaseColor.1008.png using Guid(1c1a9b8158d58d04fa7b7f27d6dfa155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac5b54710cc07c99f5d80c09f6a5896') in 0.017118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Mask/Tom Holland Spider-man12_Spider-man Suit New UV_BaseColor.1003.png
+  artifactKey: Guid(197249fa649f3c548aa44b9a5cab1015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Mask/Tom Holland Spider-man12_Spider-man Suit New UV_BaseColor.1003.png using Guid(197249fa649f3c548aa44b9a5cab1015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e67e6e3c1e633b854ef5db1528e40408') in 0.017318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Mask/Tom Holland Spider-man12_Spider-man Suit New UV_BaseColor.1005.png
+  artifactKey: Guid(03ce61599144bef4aace48e0b1189c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Mask/Tom Holland Spider-man12_Spider-man Suit New UV_BaseColor.1005.png using Guid(03ce61599144bef4aace48e0b1189c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34a87d03197ab7f886cf8bf09e38e88c') in 0.015199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Mask/Tom Holland Spider-man12_Spider-man Suit New UV_BaseColor.1010.png
+  artifactKey: Guid(692c91ddc54ebdb44b148393714a9d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Mask/Tom Holland Spider-man12_Spider-man Suit New UV_BaseColor.1010.png using Guid(692c91ddc54ebdb44b148393714a9d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e243f41e2ef423b0064579464f38aa') in 0.016796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Mask/Tom Holland Spider-man12_Spider-man Suit New UV_BaseColor.1004.png
+  artifactKey: Guid(da6da63f72013ac48ba523763b6b3bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Mask/Tom Holland Spider-man12_Spider-man Suit New UV_BaseColor.1004.png using Guid(da6da63f72013ac48ba523763b6b3bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fe976587e3c2c389dcebc15079923c7') in 0.023497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Mask/Tom Holland Spider-man12_Spider-man Suit New UV_BaseColor.1006.png
+  artifactKey: Guid(8300822af48a41143950c9c4725a0140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Mask/Tom Holland Spider-man12_Spider-man Suit New UV_BaseColor.1006.png using Guid(8300822af48a41143950c9c4725a0140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd2167d1aa5e9ae26ebd6d8034448e6d') in 0.019968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Mask/Tom Holland Spider-man12_Spider-man Suit New UV_BaseColor.1007.png
+  artifactKey: Guid(d3ae99d4e3a7faf469bf8c49b3231beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/textures/Mask/Tom Holland Spider-man12_Spider-man Suit New UV_BaseColor.1007.png using Guid(d3ae99d4e3a7faf469bf8c49b3231beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ee48382c8856e10459596ab34bd5e7a') in 0.018320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.727948 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1
+  artifactKey: Guid(fee31e453f583344baa23ff502686c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1 using Guid(fee31e453f583344baa23ff502686c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d80f9ee225097ef47cc137264f08bc') in 0.009604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 156.264770 seconds.
+  path: Assets/Character
+  artifactKey: Guid(9fde6f5893f40624195bfbd33f96e2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character using Guid(9fde6f5893f40624195bfbd33f96e2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c79a316661ac70ab9cfc6b5444956ed8') in 0.008736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.470212 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/INTEGRATED SUIT new.blend
+  artifactKey: Guid(2676ec4e8c778c145abe66ad18ecea83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/INTEGRATED SUIT new.blend using Guid(2676ec4e8c778c145abe66ad18ecea83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7603ed6cec612467263087db37585891') in 0.013362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.179316 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/INTEGRATED SUIT new.blend1
+  artifactKey: Guid(9433088c4c2d2ff42ae56f92385383fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/INTEGRATED SUIT new.blend1 using Guid(9433088c4c2d2ff42ae56f92385383fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c8fae8b4c5991554080a6b87a75290') in 0.011632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.828969 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/INTEGRATED SUIT new.mtl
+  artifactKey: Guid(68ae8de369bc75a4cabcc11a265ebbe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/INTEGRATED SUIT new.mtl using Guid(68ae8de369bc75a4cabcc11a265ebbe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05feb8fefe688fba3858a23836e9476') in 0.009860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.724722 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/INTEGRATED SUIT new.fbx
+  artifactKey: Guid(5b76122740eca6b478e73c30e5ec815a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/INTEGRATED SUIT new.fbx using Guid(5b76122740eca6b478e73c30e5ec815a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45eb3dd05d0b975c9a03abcac3ed5d06') in 0.127278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.285284 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/INTEGRATED SUIT new.fbx
+  artifactKey: Guid(5b76122740eca6b478e73c30e5ec815a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/INTEGRATED SUIT new.fbx using Guid(5b76122740eca6b478e73c30e5ec815a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ec82332fb267ccfa02d088d77d838c3') in 0.121558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.036922 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/INTEGRATED SUIT new.fbx
+  artifactKey: Guid(5b76122740eca6b478e73c30e5ec815a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/INTEGRATED SUIT new.fbx using Guid(5b76122740eca6b478e73c30e5ec815a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1be387a7cd5cf5d5682b4880521cd960') in 0.116825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.506305 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/INTEGRATED SUIT new.fbx
+  artifactKey: Guid(5b76122740eca6b478e73c30e5ec815a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/INTEGRATED SUIT new.fbx using Guid(5b76122740eca6b478e73c30e5ec815a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58810aa071347f2ab02d4740bae78f92') in 0.108569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.596182 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/New Material.mat
+  artifactKey: Guid(1837a5ef177e38e4fa8b02493dc59cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/New Material.mat using Guid(1837a5ef177e38e4fa8b02493dc59cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed6dfc86da5ba7cdf9989b19deb2525') in 0.015275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.331783 seconds.
+  path: Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/FFH.mat
+  artifactKey: Guid(1837a5ef177e38e4fa8b02493dc59cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3680311_INTEGRATED+SUIT+v2.1/FFH.mat using Guid(1837a5ef177e38e4fa8b02493dc59cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f61959acf2ac71849580ac614f1f691') in 0.013682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 345.108389 seconds.
+  path: Assets/Character/Ch44_nonPBR@Hook 1.fbx
+  artifactKey: Guid(2cad187b58581a9438a6a5628bfa8432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Ch44_nonPBR@Hook 1.fbx using Guid(2cad187b58581a9438a6a5628bfa8432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '013386365f274b2697471a89496e0961') in 0.051397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 64.799408 seconds.
+  path: Assets/Character/Taunt.fbx
+  artifactKey: Guid(4e42ab79ffdd0844f964cc7d95d8636a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Taunt.fbx using Guid(4e42ab79ffdd0844f964cc7d95d8636a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b885bf720016839ca93b081c407132f4') in 0.047614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 179.757244 seconds.
+  path: Assets/Character/Ch44_nonPBR@Hook.fbx
+  artifactKey: Guid(1000ae472089bfc4c90e8ea324a3d341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Ch44_nonPBR@Hook.fbx using Guid(1000ae472089bfc4c90e8ea324a3d341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37bc633981cd2de5efed139d98669b5f') in 0.042758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.185781 seconds.
+  path: Assets/Character/Ch44_nonPBR@Hook.fbx
+  artifactKey: Guid(1000ae472089bfc4c90e8ea324a3d341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Ch44_nonPBR@Hook.fbx using Guid(1000ae472089bfc4c90e8ea324a3d341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7daa6b6001bdd817a095fa26080f69dd') in 0.292523 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008775 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GitProject\3D-Action-Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GitProject\3D-Action-Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.238 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1239ms)
+		BeginReloadAssembly (155ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (955ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (333ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (406ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (248ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (54.1 KB). Loaded Objects now: 3897.
+Memory consumption went from 138.9 MB to 138.8 MB.
+Total: 3.766300 ms (FindLiveObjects: 0.241900 ms CreateObjectMapping: 0.147800 ms MarkObjects: 3.305300 ms  DeleteObjects: 0.070100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 37.484149 seconds.
+  path: Assets/Character/uploads_files_3531496_Deadpool.obj
+  artifactKey: Guid(44638a0610247af40bbe922c2cfe1cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3531496_Deadpool.obj using Guid(44638a0610247af40bbe922c2cfe1cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e72a140f2eadff20d0832c236bdb406') in 0.114784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.970603 seconds.
+  path: Assets/Character/Ch44_nonPBR@Hook.fbm
+  artifactKey: Guid(350544c15c935bf42ab0c29c6556cb32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Ch44_nonPBR@Hook.fbm using Guid(350544c15c935bf42ab0c29c6556cb32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bde9f15b554fbab6695a6cea8692194') in 0.006013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 147.583325 seconds.
+  path: Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbx
+  artifactKey: Guid(8d76d689d3aa81c4aa9dcb3393450942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbx using Guid(8d76d689d3aa81c4aa9dcb3393450942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '321b642120339a076e23ec30b5878a1a') in 0.148690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.571180 seconds.
+  path: Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbx
+  artifactKey: Guid(8d76d689d3aa81c4aa9dcb3393450942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbx using Guid(8d76d689d3aa81c4aa9dcb3393450942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5d386b0ea7d5c74d9c18ebd2d90da11') in 0.095959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.431809 seconds.
+  path: Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbx
+  artifactKey: Guid(8d76d689d3aa81c4aa9dcb3393450942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbx using Guid(8d76d689d3aa81c4aa9dcb3393450942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfb546451554fda15b3723153e015be0') in 0.119450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.444361 seconds.
+  path: Assets/Character/Materials
+  artifactKey: Guid(6b84be4e6f7ac1b4ab9f79b18d5add99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Materials using Guid(6b84be4e6f7ac1b4ab9f79b18d5add99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2681f1773f32e71d0f0d6b52bf312ecc') in 0.015405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.218907 seconds.
+  path: Assets/Character/Materials/Ch44_1001_Diffuse.mat
+  artifactKey: Guid(66d8ca29916587645b5576256d07e806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Materials/Ch44_1001_Diffuse.mat using Guid(66d8ca29916587645b5576256d07e806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a0a73ab2ad620a1de1a484365dfa2b') in 0.059505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Character/Materials/Ch44_1002_Diffuse.mat
+  artifactKey: Guid(457b2df068a40cb4482e746cc786e491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Materials/Ch44_1002_Diffuse.mat using Guid(457b2df068a40cb4482e746cc786e491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea6dcb01cff7a93ff59f5be3513dc80') in 0.061418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.127331 seconds.
+  path: Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbm/Ch44_1001_Diffuse.png
+  artifactKey: Guid(03f8455f18dbc3847b3ff550a65afdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbm/Ch44_1001_Diffuse.png using Guid(03f8455f18dbc3847b3ff550a65afdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.026798 seconds  code(4) message(Build asset version error: assets/character/ch44_nonpbr@bouncing fight idle.fbm/ch44_1001_diffuse.png in SourceAssetDB has modification time of '2023-02-23T05:44:57.0459522Z' while content on disk has modification time of '2023-02-23T05:45:04.215354Z')
+  ERROR: Build asset version error: assets/character/ch44_nonpbr@bouncing fight idle.fbm/ch44_1001_diffuse.png in SourceAssetDB has modification time of '2023-02-23T05:44:57.0459522Z' while content on disk has modification time of '2023-02-23T05:45:04.215354Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbm/Ch44_1001_Glossiness.png
+  artifactKey: Guid(0fe34a1545934c1499ce018b38f91557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbm/Ch44_1001_Glossiness.png using Guid(0fe34a1545934c1499ce018b38f91557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.024192 seconds  code(4) message(Build asset version error: assets/character/ch44_nonpbr@bouncing fight idle.fbm/ch44_1001_glossiness.png in SourceAssetDB has modification time of '2023-02-23T05:44:57.099896Z' while content on disk has modification time of '2023-02-23T05:45:04.2598453Z')
+  ERROR: Build asset version error: assets/character/ch44_nonpbr@bouncing fight idle.fbm/ch44_1001_glossiness.png in SourceAssetDB has modification time of '2023-02-23T05:44:57.099896Z' while content on disk has modification time of '2023-02-23T05:45:04.2598453Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbm/Ch44_1001_Normal.png
+  artifactKey: Guid(6d16240d52896c34c95b288c4fa39030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbm/Ch44_1001_Normal.png using Guid(6d16240d52896c34c95b288c4fa39030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.024831 seconds  code(4) message(Build asset version error: assets/character/ch44_nonpbr@bouncing fight idle.fbm/ch44_1001_normal.png in SourceAssetDB has modification time of '2023-02-23T05:44:57.1724693Z' while content on disk has modification time of '2023-02-23T05:45:04.3161587Z')
+  ERROR: Build asset version error: assets/character/ch44_nonpbr@bouncing fight idle.fbm/ch44_1001_normal.png in SourceAssetDB has modification time of '2023-02-23T05:44:57.1724693Z' while content on disk has modification time of '2023-02-23T05:45:04.3161587Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbm/Ch44_1002_Emissive.png
+  artifactKey: Guid(b7267572e05e170408a1458a42f2203d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbm/Ch44_1002_Emissive.png using Guid(b7267572e05e170408a1458a42f2203d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.015881 seconds  code(4) message(Build asset version error: assets/character/ch44_nonpbr@bouncing fight idle.fbm/ch44_1002_emissive.png in SourceAssetDB has modification time of '2023-02-23T05:44:57.04695Z' while content on disk has modification time of '2023-02-23T05:45:04.2173464Z')
+  ERROR: Build asset version error: assets/character/ch44_nonpbr@bouncing fight idle.fbm/ch44_1002_emissive.png in SourceAssetDB has modification time of '2023-02-23T05:44:57.04695Z' while content on disk has modification time of '2023-02-23T05:45:04.2173464Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbm/Ch44_1002_Diffuse.png
+  artifactKey: Guid(6454efa6e6864504f9736690be9da149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbm/Ch44_1002_Diffuse.png using Guid(6454efa6e6864504f9736690be9da149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.025098 seconds  code(4) message(Build asset version error: assets/character/ch44_nonpbr@bouncing fight idle.fbm/ch44_1002_diffuse.png in SourceAssetDB has modification time of '2023-02-23T05:44:57.0309424Z' while content on disk has modification time of '2023-02-23T05:45:04.2004129Z')
+  ERROR: Build asset version error: assets/character/ch44_nonpbr@bouncing fight idle.fbm/ch44_1002_diffuse.png in SourceAssetDB has modification time of '2023-02-23T05:44:57.0309424Z' while content on disk has modification time of '2023-02-23T05:45:04.2004129Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbm/Ch44_1001_Specular.png
+  artifactKey: Guid(f14068ddba7ec314fa035a3553910e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbm/Ch44_1001_Specular.png using Guid(f14068ddba7ec314fa035a3553910e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.022880 seconds  code(4) message(Build asset version error: assets/character/ch44_nonpbr@bouncing fight idle.fbm/ch44_1001_specular.png in SourceAssetDB has modification time of '2023-02-23T05:44:57.0779489Z' while content on disk has modification time of '2023-02-23T05:45:04.2385364Z')
+  ERROR: Build asset version error: assets/character/ch44_nonpbr@bouncing fight idle.fbm/ch44_1001_specular.png in SourceAssetDB has modification time of '2023-02-23T05:44:57.0779489Z' while content on disk has modification time of '2023-02-23T05:45:04.2385364Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbm/Ch44_1002_Glossiness.png
+  artifactKey: Guid(7b8a4d5f74ab05b418e9fcdf0a27ad59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbm/Ch44_1002_Glossiness.png using Guid(7b8a4d5f74ab05b418e9fcdf0a27ad59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.020288 seconds  code(4) message(Build asset version error: assets/character/ch44_nonpbr@bouncing fight idle.fbm/ch44_1002_glossiness.png in SourceAssetDB has modification time of '2023-02-23T05:44:57.088922Z' while content on disk has modification time of '2023-02-23T05:45:04.2501732Z')
+  ERROR: Build asset version error: assets/character/ch44_nonpbr@bouncing fight idle.fbm/ch44_1002_glossiness.png in SourceAssetDB has modification time of '2023-02-23T05:44:57.088922Z' while content on disk has modification time of '2023-02-23T05:45:04.2501732Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbm/Ch44_1001_Emissive.png
+  artifactKey: Guid(86200cca631e8744881427551b66b0c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbm/Ch44_1001_Emissive.png using Guid(86200cca631e8744881427551b66b0c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.019486 seconds  code(4) message(Build asset version error: assets/character/ch44_nonpbr@bouncing fight idle.fbm/ch44_1001_emissive.png in SourceAssetDB has modification time of '2023-02-23T05:44:57.0499044Z' while content on disk has modification time of '2023-02-23T05:45:04.2223334Z')
+  ERROR: Build asset version error: assets/character/ch44_nonpbr@bouncing fight idle.fbm/ch44_1001_emissive.png in SourceAssetDB has modification time of '2023-02-23T05:44:57.0499044Z' while content on disk has modification time of '2023-02-23T05:45:04.2223334Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbm/Ch44_1002_Specular.png
+  artifactKey: Guid(2d86ee52f92bb5144b504889184d4376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbm/Ch44_1002_Specular.png using Guid(2d86ee52f92bb5144b504889184d4376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.016981 seconds  code(4) message(Build asset version error: assets/character/ch44_nonpbr@bouncing fight idle.fbm/ch44_1002_specular.png in SourceAssetDB has modification time of '2023-02-23T05:44:57.0730158Z' while content on disk has modification time of '2023-02-23T05:45:04.2308475Z')
+  ERROR: Build asset version error: assets/character/ch44_nonpbr@bouncing fight idle.fbm/ch44_1002_specular.png in SourceAssetDB has modification time of '2023-02-23T05:44:57.0730158Z' while content on disk has modification time of '2023-02-23T05:45:04.2308475Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbm/Ch44_1002_Normal.png
+  artifactKey: Guid(3df0ee82624a0c943b1dc5d74e27aa41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbm/Ch44_1002_Normal.png using Guid(3df0ee82624a0c943b1dc5d74e27aa41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.019322 seconds  code(4) message(Build asset version error: assets/character/ch44_nonpbr@bouncing fight idle.fbm/ch44_1002_normal.png in SourceAssetDB has modification time of '2023-02-23T05:44:57.139465Z' while content on disk has modification time of '2023-02-23T05:45:04.290162Z')
+  ERROR: Build asset version error: assets/character/ch44_nonpbr@bouncing fight idle.fbm/ch44_1002_normal.png in SourceAssetDB has modification time of '2023-02-23T05:44:57.139465Z' while content on disk has modification time of '2023-02-23T05:45:04.290162Z'
+========================================================================
+Received Import Request.
+  Time since last request: 10.086842 seconds.
+  path: Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbx
+  artifactKey: Guid(8d76d689d3aa81c4aa9dcb3393450942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbx using Guid(8d76d689d3aa81c4aa9dcb3393450942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c93ebb9ffc53c320831f4557a74948e1') in 0.088695 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015571 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GitProject\3D-Action-Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GitProject\3D-Action-Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 2.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.856 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2857ms)
+		BeginReloadAssembly (378ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (116ms)
+		EndReloadAssembly (2196ms)
+			LoadAssemblies (313ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (699ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (159ms)
+			SetupLoadedEditorAssemblies (934ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (57ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (173ms)
+				ProcessInitializeOnLoadAttributes (555ms)
+				ProcessInitializeOnLoadMethodAttributes (115ms)
+				AfterProcessingInitializeOnLoad (25ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (46ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (54.0 KB). Loaded Objects now: 3900.
+Memory consumption went from 138.9 MB to 138.8 MB.
+Total: 4.310100 ms (FindLiveObjects: 0.554400 ms CreateObjectMapping: 0.581600 ms MarkObjects: 3.102200 ms  DeleteObjects: 0.070300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 46.224881 seconds.
+  path: Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbx
+  artifactKey: Guid(8d76d689d3aa81c4aa9dcb3393450942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbx using Guid(8d76d689d3aa81c4aa9dcb3393450942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc872e6c22f65eef095b3e7b8b2e2871') in 0.265262 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011817 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GitProject\3D-Action-Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GitProject\3D-Action-Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.560 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2561ms)
+		BeginReloadAssembly (495ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (119ms)
+		EndReloadAssembly (1773ms)
+			LoadAssemblies (399ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (680ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (125ms)
+			SetupLoadedEditorAssemblies (646ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (44ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (132ms)
+				ProcessInitializeOnLoadAttributes (407ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (54.0 KB). Loaded Objects now: 3903.
+Memory consumption went from 138.9 MB to 138.8 MB.
+Total: 24.767400 ms (FindLiveObjects: 0.998100 ms CreateObjectMapping: 2.621300 ms MarkObjects: 20.961900 ms  DeleteObjects: 0.184500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 40.805341 seconds.
+  path: Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbx
+  artifactKey: Guid(8d76d689d3aa81c4aa9dcb3393450942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbx using Guid(8d76d689d3aa81c4aa9dcb3393450942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '898f55d788a142657257e2518465e6cc') in 0.131984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.654539 seconds.
+  path: Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbx
+  artifactKey: Guid(8d76d689d3aa81c4aa9dcb3393450942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbx using Guid(8d76d689d3aa81c4aa9dcb3393450942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e6cf5a10d3b4f2ddc9494ca2c23ed2f') in 0.068451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.343150 seconds.
+  path: Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbx
+  artifactKey: Guid(8d76d689d3aa81c4aa9dcb3393450942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbx using Guid(8d76d689d3aa81c4aa9dcb3393450942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a51bd6dde673a37586b7fff377b7269d') in 0.067723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.408737 seconds.
+  path: Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbx
+  artifactKey: Guid(8d76d689d3aa81c4aa9dcb3393450942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbx using Guid(8d76d689d3aa81c4aa9dcb3393450942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8028f7c95313bf4d7f30359bef769048') in 0.034224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.245178 seconds.
+  path: Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbm
+  artifactKey: Guid(f202643d9ae53104a9d09fcca170db67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbm using Guid(f202643d9ae53104a9d09fcca170db67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01bbae7a2647d5007adaa6e4868b6c2d') in 0.008028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.228394 seconds.
+  path: Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbm/Ch44_1001_Diffuse.png
+  artifactKey: Guid(03f8455f18dbc3847b3ff550a65afdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbm/Ch44_1001_Diffuse.png using Guid(03f8455f18dbc3847b3ff550a65afdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a06232d39fb2e8bde8ef6b17bc34d75b') in 0.041117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbm/Ch44_1001_Glossiness.png
+  artifactKey: Guid(0fe34a1545934c1499ce018b38f91557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbm/Ch44_1001_Glossiness.png using Guid(0fe34a1545934c1499ce018b38f91557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b02a2fa9834d4a62905921b0e76c1b7b') in 0.016491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbm/Ch44_1001_Normal.png
+  artifactKey: Guid(6d16240d52896c34c95b288c4fa39030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbm/Ch44_1001_Normal.png using Guid(6d16240d52896c34c95b288c4fa39030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a61642d6d527ae4f0543d3aaf902044a') in 0.017147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbm/Ch44_1002_Emissive.png
+  artifactKey: Guid(b7267572e05e170408a1458a42f2203d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbm/Ch44_1002_Emissive.png using Guid(b7267572e05e170408a1458a42f2203d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cc274565b8fd9a899e9c29b7a8cea2e') in 0.015393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbm/Ch44_1002_Diffuse.png
+  artifactKey: Guid(6454efa6e6864504f9736690be9da149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbm/Ch44_1002_Diffuse.png using Guid(6454efa6e6864504f9736690be9da149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c519233a1bcd00aa2e9e931462c52d') in 0.014476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbm/Ch44_1001_Specular.png
+  artifactKey: Guid(f14068ddba7ec314fa035a3553910e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbm/Ch44_1001_Specular.png using Guid(f14068ddba7ec314fa035a3553910e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df0a582fb36d9b94a8e89a04ba2ebca2') in 0.017170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbm/Ch44_1002_Glossiness.png
+  artifactKey: Guid(7b8a4d5f74ab05b418e9fcdf0a27ad59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbm/Ch44_1002_Glossiness.png using Guid(7b8a4d5f74ab05b418e9fcdf0a27ad59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '706603fd8bb11a386507d4ad80ad8498') in 0.017087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbm/Ch44_1001_Emissive.png
+  artifactKey: Guid(86200cca631e8744881427551b66b0c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbm/Ch44_1001_Emissive.png using Guid(86200cca631e8744881427551b66b0c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84f6ef39e0a401b1486cfb6d8ebece11') in 0.017592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbm/Ch44_1002_Specular.png
+  artifactKey: Guid(2d86ee52f92bb5144b504889184d4376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbm/Ch44_1002_Specular.png using Guid(2d86ee52f92bb5144b504889184d4376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b76ebed6242d762daf3e3dbfff387c7') in 0.016204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbm/Ch44_1002_Normal.png
+  artifactKey: Guid(3df0ee82624a0c943b1dc5d74e27aa41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbm/Ch44_1002_Normal.png using Guid(3df0ee82624a0c943b1dc5d74e27aa41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca502feb3b2a8f20d39c6468dd9214aa') in 0.022043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.795967 seconds.
+  path: Assets/Character/Materials/Ch44_1001_Diffuse.mat
+  artifactKey: Guid(66d8ca29916587645b5576256d07e806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Materials/Ch44_1001_Diffuse.mat using Guid(66d8ca29916587645b5576256d07e806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceccf331fcacd8a4e06948c9f10e8b58') in 0.030242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Character/Materials/Ch44_1002_Diffuse.mat
+  artifactKey: Guid(457b2df068a40cb4482e746cc786e491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Materials/Ch44_1002_Diffuse.mat using Guid(457b2df068a40cb4482e746cc786e491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e78c1b754334f5f107316e0fe726ea9') in 0.024350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 74.880110 seconds.
+  path: Assets/Character/New Animator Controller.controller
+  artifactKey: Guid(1fc95e88788fcc34f9bbbdafd19db2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/New Animator Controller.controller using Guid(1fc95e88788fcc34f9bbbdafd19db2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03d43ec52faa0533b000f21354f8a31d') in 0.015085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.188253 seconds.
+  path: Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbx
+  artifactKey: Guid(8d76d689d3aa81c4aa9dcb3393450942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbx using Guid(8d76d689d3aa81c4aa9dcb3393450942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17c5dd2571c92a23cba543a21c75891c') in 0.083531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.251565 seconds.
+  path: Assets/Character/Bouncing Fight Idle.anim
+  artifactKey: Guid(3a9e65202eddd9442af3826ec3a5ad54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Bouncing Fight Idle.anim using Guid(3a9e65202eddd9442af3826ec3a5ad54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '203ccb8fb1051baa6fdbb7d6c41f3e26') in 0.025186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.357916 seconds.
+  path: Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbx
+  artifactKey: Guid(8d76d689d3aa81c4aa9dcb3393450942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbx using Guid(8d76d689d3aa81c4aa9dcb3393450942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3d54f13a779c09c80ade524b8010bba') in 0.045029 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007990 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GitProject\3D-Action-Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GitProject\3D-Action-Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.214 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1215ms)
+		BeginReloadAssembly (153ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (954ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (319ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (421ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (272ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (54.1 KB). Loaded Objects now: 3907.
+Memory consumption went from 139.3 MB to 139.3 MB.
+Total: 3.320500 ms (FindLiveObjects: 0.267500 ms CreateObjectMapping: 0.161300 ms MarkObjects: 2.820500 ms  DeleteObjects: 0.070300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 168.429587 seconds.
+  path: Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbx
+  artifactKey: Guid(8d76d689d3aa81c4aa9dcb3393450942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Ch44_nonPBR@Bouncing Fight Idle.fbx using Guid(8d76d689d3aa81c4aa9dcb3393450942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '673387602aaaafe13365906d201928af') in 0.130476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.336742 seconds.
+  path: Assets/Character/Taunt (1).fbx
+  artifactKey: Guid(3fcf5eb06cae68345b4c119a2b435624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Taunt (1).fbx using Guid(3fcf5eb06cae68345b4c119a2b435624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81608b3ebfee002d4916944b2bef66bd') in 0.074720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.492927 seconds.
+  path: Assets/Character/Taunt (1).fbx
+  artifactKey: Guid(3fcf5eb06cae68345b4c119a2b435624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Taunt (1).fbx using Guid(3fcf5eb06cae68345b4c119a2b435624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '342d2a829b9768fc778f81803e2dea73') in 0.050590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.668941 seconds.
+  path: Assets/Character/Taunt (1).fbx
+  artifactKey: Guid(3fcf5eb06cae68345b4c119a2b435624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Taunt (1).fbx using Guid(3fcf5eb06cae68345b4c119a2b435624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61537b43448568e76a6ca1ff65b952c1') in 0.060389 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007533 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GitProject\3D-Action-Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GitProject\3D-Action-Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.296 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1296ms)
+		BeginReloadAssembly (150ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (1020ms)
+			LoadAssemblies (120ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (333ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (455ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (294ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (54.1 KB). Loaded Objects now: 3910.
+Memory consumption went from 139.4 MB to 139.3 MB.
+Total: 3.146900 ms (FindLiveObjects: 0.264400 ms CreateObjectMapping: 0.155400 ms MarkObjects: 2.660800 ms  DeleteObjects: 0.065200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 23.560486 seconds.
+  path: Assets/Character/Taunt (1).fbx
+  artifactKey: Guid(3fcf5eb06cae68345b4c119a2b435624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Taunt (1).fbx using Guid(3fcf5eb06cae68345b4c119a2b435624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '949ab7dbb5a0cf7117b2d19ae6051b1e') in 0.143474 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007539 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GitProject\3D-Action-Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GitProject\3D-Action-Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.262 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1263ms)
+		BeginReloadAssembly (151ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (989ms)
+			LoadAssemblies (119ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (332ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (425ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (260ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (54.2 KB). Loaded Objects now: 3913.
+Memory consumption went from 139.4 MB to 139.3 MB.
+Total: 3.672300 ms (FindLiveObjects: 0.264600 ms CreateObjectMapping: 0.143300 ms MarkObjects: 3.196800 ms  DeleteObjects: 0.066400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 30.678847 seconds.
+  path: Assets/Character/Taunt (1).fbm
+  artifactKey: Guid(640d1e410ce67184cbae90c4bb37132d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Taunt (1).fbm using Guid(640d1e410ce67184cbae90c4bb37132d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '391dcb1490ed2119612bd2b0aec91675') in 0.014352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.032811 seconds.
+  path: Assets/Character/Taunt (1).fbm/Paladin_diffuse.png
+  artifactKey: Guid(97f6c397ad32a69489e354aa864c65ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Taunt (1).fbm/Paladin_diffuse.png using Guid(97f6c397ad32a69489e354aa864c65ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.039770 seconds  code(4) message(Build asset version error: assets/character/taunt (1).fbm/paladin_diffuse.png in SourceAssetDB has modification time of '2023-02-23T05:54:21.0241414Z' while content on disk has modification time of '2023-02-23T05:54:45.5164699Z')
+  ERROR: Build asset version error: assets/character/taunt (1).fbm/paladin_diffuse.png in SourceAssetDB has modification time of '2023-02-23T05:54:21.0241414Z' while content on disk has modification time of '2023-02-23T05:54:45.5164699Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Character/Taunt (1).fbm/Paladin_specular.png
+  artifactKey: Guid(741af81a2d6be1c468da5562526b24d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Taunt (1).fbm/Paladin_specular.png using Guid(741af81a2d6be1c468da5562526b24d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010402 seconds  code(4) message(Build asset version error: assets/character/taunt (1).fbm/paladin_specular.png in SourceAssetDB has modification time of '2023-02-23T05:54:21.0261367Z' while content on disk has modification time of '2023-02-23T05:54:45.5184655Z')
+  ERROR: Build asset version error: assets/character/taunt (1).fbm/paladin_specular.png in SourceAssetDB has modification time of '2023-02-23T05:54:21.0261367Z' while content on disk has modification time of '2023-02-23T05:54:45.5184655Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Character/Taunt (1).fbm/Paladin_normal.png
+  artifactKey: Guid(3ac18d7ac8f381846b6b674ba42de58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Taunt (1).fbm/Paladin_normal.png using Guid(3ac18d7ac8f381846b6b674ba42de58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010278 seconds  code(4) message(Build asset version error: assets/character/taunt (1).fbm/paladin_normal.png in SourceAssetDB has modification time of '2023-02-23T05:54:21.0291281Z' while content on disk has modification time of '2023-02-23T05:54:45.521457Z')
+  ERROR: Build asset version error: assets/character/taunt (1).fbm/paladin_normal.png in SourceAssetDB has modification time of '2023-02-23T05:54:21.0291281Z' while content on disk has modification time of '2023-02-23T05:54:45.521457Z'
+========================================================================
+Received Import Request.
+  Time since last request: 1.086772 seconds.
+  path: Assets/Character/Materials/Paladin_diffuse.mat
+  artifactKey: Guid(81738a6875ae8ca479e4124d1228437a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Materials/Paladin_diffuse.mat using Guid(81738a6875ae8ca479e4124d1228437a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd4cc6cad5d73ec4ec84e751145d7d1d') in 0.053946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 78.061204 seconds.
+  path: Assets/Character/Taunt (1).fbx
+  artifactKey: Guid(3fcf5eb06cae68345b4c119a2b435624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Taunt (1).fbx using Guid(3fcf5eb06cae68345b4c119a2b435624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '580d93fa42fa48525c53e23005749db0') in 0.081961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 296.910598 seconds.
+  path: Assets/Character/Materials/Paladin_diffuse.mat
+  artifactKey: Guid(81738a6875ae8ca479e4124d1228437a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Materials/Paladin_diffuse.mat using Guid(81738a6875ae8ca479e4124d1228437a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ef3f11a6e1f7bb39cd798f2b57755d') in 0.019904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.895608 seconds.
+  path: Assets/Character/Taunt (1).fbm/Paladin_diffuse.png
+  artifactKey: Guid(97f6c397ad32a69489e354aa864c65ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Taunt (1).fbm/Paladin_diffuse.png using Guid(97f6c397ad32a69489e354aa864c65ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad8ebaa7a6d73bdd0dd3dac3cc7d54d') in 0.016202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Character/Taunt (1).fbm/Paladin_specular.png
+  artifactKey: Guid(741af81a2d6be1c468da5562526b24d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Taunt (1).fbm/Paladin_specular.png using Guid(741af81a2d6be1c468da5562526b24d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc19c0c3d6dd100cc720fb2b7f0db02') in 0.016906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Character/Taunt (1).fbm/Paladin_normal.png
+  artifactKey: Guid(3ac18d7ac8f381846b6b674ba42de58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Taunt (1).fbm/Paladin_normal.png using Guid(3ac18d7ac8f381846b6b674ba42de58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe608ab1f1a7e7a4000252f8d22ac6a7') in 0.020949 seconds 
