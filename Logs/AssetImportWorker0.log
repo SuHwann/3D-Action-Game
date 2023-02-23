@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.10f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/GitProject/3D-Action-Game/3D Action Game
+D:/GitProject/3D-Action-Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62371
-Successfully changed project path to: D:/GitProject/3D-Action-Game/3D Action Game
-D:/GitProject/3D-Action-Game/3D Action Game
+63449
+Successfully changed project path to: D:/GitProject/3D-Action-Game
+D:/GitProject/3D-Action-Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,11 +47,11 @@ D:/GitProject/3D-Action-Game/3D Action Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 92.54 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 89.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/GitProject/3D-Action-Game/3D Action Game/Assets
+[Subsystems] Discovering subsystems at path D:/GitProject/3D-Action-Game/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -63,92 +63,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56548
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56708
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008764 seconds.
+Registered in 0.007848 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 96.85 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 90.38 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.845 seconds
+- Completed reload, in  0.751 seconds
 Domain Reload Profiling:
-	ReloadAssembly (846ms)
-		BeginReloadAssembly (109ms)
+	ReloadAssembly (752ms)
+		BeginReloadAssembly (94ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (597ms)
-			LoadAssemblies (105ms)
+		EndReloadAssembly (533ms)
+			LoadAssemblies (91ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (155ms)
+			SetupTypeCache (117ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (348ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (323ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (72ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (97ms)
+				InitializePlatformSupportModulesInManaged (68ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (91ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (112ms)
-				ProcessInitializeOnLoadMethodAttributes (64ms)
+				ProcessInitializeOnLoadAttributes (104ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008167 seconds.
+Registered in 0.007706 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\GitProject\3D-Action-Game\3D Action Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\GitProject\3D-Action-Game\3D Action Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\GitProject\3D-Action-Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GitProject\3D-Action-Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.539 seconds
+- Completed reload, in  1.267 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1540ms)
-		BeginReloadAssembly (355ms)
+	ReloadAssembly (1268ms)
+		BeginReloadAssembly (228ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (187ms)
-		EndReloadAssembly (1010ms)
-			LoadAssemblies (164ms)
+			CreateAndSetChildDomain (124ms)
+		EndReloadAssembly (912ms)
+			LoadAssemblies (103ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (350ms)
+			SetupTypeCache (309ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (424ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (399ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (103ms)
-				ProcessInitializeOnLoadAttributes (256ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
-				AfterProcessingInitializeOnLoad (12ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (246ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (113.5 KB). Loaded Objects now: 3839.
-Memory consumption went from 120.6 MB to 120.5 MB.
-Total: 4.683000 ms (FindLiveObjects: 0.268800 ms CreateObjectMapping: 0.191700 ms MarkObjects: 4.107800 ms  DeleteObjects: 0.113700 ms)
+Unloading 26 unused Assets / (87.7 KB). Loaded Objects now: 3840.
+Memory consumption went from 120.6 MB to 120.6 MB.
+Total: 3.700500 ms (FindLiveObjects: 0.282300 ms CreateObjectMapping: 0.217600 ms MarkObjects: 3.112300 ms  DeleteObjects: 0.087500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -162,85 +162,163 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 657351.863625 seconds.
-  path: Assets/Script
-  artifactKey: Guid(4f760c9a62fc4d149a53c0b2580dc73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script using Guid(4f760c9a62fc4d149a53c0b2580dc73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a41571d3c9ea0cbc673b78a2d74f2ba9') in 0.009940 seconds 
+  Time since last request: 663431.664735 seconds.
+  path: Assets/Character/uploads_files_3531496_Deadpool.obj
+  artifactKey: Guid(44638a0610247af40bbe922c2cfe1cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3531496_Deadpool.obj using Guid(44638a0610247af40bbe922c2cfe1cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d8f756c32cd187b806975522af0c617') in 0.407810 seconds 
 ========================================================================
-Received Prepare
-Couldn't register non-exiting asset root folder: 'Assets'
-Assertion failed on expression: 'success'
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Registering precompiled user dll's ...
-Registered in 0.006830 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\GitProject\3D-Action-Game\3D Action Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\GitProject\3D-Action-Game\3D Action Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.178 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1179ms)
-		BeginReloadAssembly (158ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (909ms)
-			LoadAssemblies (104ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (328ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (368ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (33ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (216ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.71 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3254 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (54.1 KB). Loaded Objects now: 3842.
-Memory consumption went from 117.9 MB to 117.9 MB.
-Total: 4.265600 ms (FindLiveObjects: 0.232400 ms CreateObjectMapping: 0.140000 ms MarkObjects: 3.832700 ms  DeleteObjects: 0.059100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Character/uploads_files_3531496_textures/base_color_Head_D.png
+  artifactKey: Guid(41b4c8e872426254988fe80989d7fdd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3531496_textures/base_color_Head_D.png using Guid(41b4c8e872426254988fe80989d7fdd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2bdea06745a94cb08f12b210c579552') in 0.029485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Character/uploads_files_3531496_textures/metal_body.png
+  artifactKey: Guid(5d9e62d0f0ab1a94298e132e08b2f906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3531496_textures/metal_body.png using Guid(5d9e62d0f0ab1a94298e132e08b2f906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff9380356e4b6ca2c1e4d24a284362c') in 0.024026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Character/uploads_files_3531496_textures/normal_Body_N.png
+  artifactKey: Guid(af67275b946b2d74cbd5cb190a3c6a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3531496_textures/normal_Body_N.png using Guid(af67275b946b2d74cbd5cb190a3c6a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f0cd23b7d3380785c4c3454a85debb') in 0.019282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Character/uploads_files_3531496_textures/Katana_Metal.tga
+  artifactKey: Guid(0c371162d8fad7f43a3963a4a8c9ba87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3531496_textures/Katana_Metal.tga using Guid(0c371162d8fad7f43a3963a4a8c9ba87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08d8a60af3869c128ccadee11a60f5dc') in 0.026630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Character/uploads_files_3531496_textures/Katana_Color.tga
+  artifactKey: Guid(d8b3b29ec4110984faca6bbcc9a5ee1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3531496_textures/Katana_Color.tga using Guid(d8b3b29ec4110984faca6bbcc9a5ee1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '836541722c71ac73244355fd94886bca') in 0.018163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Character/uploads_files_3531496_Deadpool.fbx
+  artifactKey: Guid(d61810b13182d3d4babac84410e8a819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3531496_Deadpool.fbx using Guid(d61810b13182d3d4babac84410e8a819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc978df134ba041435305d134240c5a6') in 0.413546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Character/uploads_files_3531496_textures/Katana_ao.tga
+  artifactKey: Guid(d10d00ac8ffc3144f9b74f41099b274d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3531496_textures/Katana_ao.tga using Guid(d10d00ac8ffc3144f9b74f41099b274d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8effcc8c2ff2e51936c88e9ffa0c94d') in 0.024766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Character/uploads_files_3531496_textures/normal_Head_N.png
+  artifactKey: Guid(954ed955a59783b4bac7df441bab0125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3531496_textures/normal_Head_N.png using Guid(954ed955a59783b4bac7df441bab0125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d239baeb0cdd3c2684a5396cd31b30f') in 0.015569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Character/uploads_files_3531496_textures/Base _color_Body_D.png
+  artifactKey: Guid(6a7a147196fe3634d9efb5d9868c7798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3531496_textures/Base _color_Body_D.png using Guid(6a7a147196fe3634d9efb5d9868c7798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b7d319bf5705ca9bb03646c842a503f') in 0.022468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Character/uploads_files_3531496_textures/rougnes.png
+  artifactKey: Guid(0a1f89e0805961f43820512774b3978b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3531496_textures/rougnes.png using Guid(0a1f89e0805961f43820512774b3978b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24d9f62dd1a6200b0111646f0d48a458') in 0.022594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Character/uploads_files_3531496_textures/Katana_Roughness.tga
+  artifactKey: Guid(37e0b77fe4e9fd449b6bc063d4fa88f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3531496_textures/Katana_Roughness.tga using Guid(37e0b77fe4e9fd449b6bc063d4fa88f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4281bd59f26b2ac20b09dcdb6f5714c1') in 0.020280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Character/uploads_files_3531496_textures/head_glosnesG.png
+  artifactKey: Guid(a49ef30dc44294a4d9fb5cef14503bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3531496_textures/head_glosnesG.png using Guid(a49ef30dc44294a4d9fb5cef14503bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7777b8b70547caa41593da72846a5241') in 0.018939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Character/uploads_files_3531496_textures/Katana_normals.tga
+  artifactKey: Guid(8745a9e6e06b8064197471bddb15150f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3531496_textures/Katana_normals.tga using Guid(8745a9e6e06b8064197471bddb15150f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10311269e86b47033bcc6cbe4cba2e2') in 0.016029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Character/uploads_files_3531496_textures
+  artifactKey: Guid(49c966473135e62478ae75336cb206ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3531496_textures using Guid(49c966473135e62478ae75336cb206ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b114456e60da38e34f0b03fc4977c1fa') in 0.007607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.524882 seconds.
+  path: Assets/Character/uploads_files_3531496_textures/rougnes_head.png
+  artifactKey: Guid(59aa3879ca6d3d14f81f3b854cc68188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3531496_textures/rougnes_head.png using Guid(59aa3879ca6d3d14f81f3b854cc68188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac648c294fa83744bd60ed6865579392') in 0.039859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Character/uploads_files_3531496_textures/rougnes_Head_E.png
+  artifactKey: Guid(f59c1dbc6681f2e4f9a771973a77c412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3531496_textures/rougnes_Head_E.png using Guid(f59c1dbc6681f2e4f9a771973a77c412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44afbb58908a4bacc3a2542dfeaa75a5') in 0.027119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.946947 seconds.
+  path: Assets/Character/uploads_files_3531496_textures/New Material.mat
+  artifactKey: Guid(1a0da81a09bebb04395fbd39d08632e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3531496_textures/New Material.mat using Guid(1a0da81a09bebb04395fbd39d08632e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e87db033ceeeffec831d4b7d38a5a5e9') in 0.018886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.916216 seconds.
+  path: Assets/Character/uploads_files_3531496_textures/New Material 1.mat
+  artifactKey: Guid(b8bf8dd299aeaba45b507d91a88fa95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3531496_textures/New Material 1.mat using Guid(b8bf8dd299aeaba45b507d91a88fa95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d84256e6aa29a133ffc51f961646c6f') in 0.015184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.373930 seconds.
+  path: Assets/Character/uploads_files_3531496_textures/New Material 2.mat
+  artifactKey: Guid(dc8df190f50bcf546aafeffc2ebcaf28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3531496_textures/New Material 2.mat using Guid(dc8df190f50bcf546aafeffc2ebcaf28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ee1bb2c83c526a0d3a5888d9ad21ca') in 0.013891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.317815 seconds.
+  path: Assets/Character/uploads_files_3531496_textures/Body.mat
+  artifactKey: Guid(b8bf8dd299aeaba45b507d91a88fa95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3531496_textures/Body.mat using Guid(b8bf8dd299aeaba45b507d91a88fa95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '297da80206ead915b295afdd02bb590b') in 0.014585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.478363 seconds.
+  path: Assets/Character/uploads_files_3531496_textures/Head.mat
+  artifactKey: Guid(dc8df190f50bcf546aafeffc2ebcaf28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3531496_textures/Head.mat using Guid(dc8df190f50bcf546aafeffc2ebcaf28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb991b09381d430950d11b698e6af20f') in 0.014670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.111626 seconds.
+  path: Assets/Character/uploads_files_3531496_textures/Katana.mat
+  artifactKey: Guid(1a0da81a09bebb04395fbd39d08632e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3531496_textures/Katana.mat using Guid(1a0da81a09bebb04395fbd39d08632e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05a717e1aa3e203126d2646c4b9ed645') in 0.015465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.930488 seconds.
+  path: Assets/Character/uploads_files_3531496_Deadpool.fbx
+  artifactKey: Guid(d61810b13182d3d4babac84410e8a819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3531496_Deadpool.fbx using Guid(d61810b13182d3d4babac84410e8a819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a71abc0ef3557daa0481433041267666') in 0.126433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.563424 seconds.
+  path: Assets/Character/uploads_files_3531496_Deadpool.fbx
+  artifactKey: Guid(d61810b13182d3d4babac84410e8a819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3531496_Deadpool.fbx using Guid(d61810b13182d3d4babac84410e8a819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b96be4b0bdd2a791e341765335c63be') in 0.111047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.295808 seconds.
+  path: Assets/Character/uploads_files_3531496_Deadpool.obj
+  artifactKey: Guid(44638a0610247af40bbe922c2cfe1cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/uploads_files_3531496_Deadpool.obj using Guid(44638a0610247af40bbe922c2cfe1cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f3267315d60984f52fd4c0d69a2798') in 0.028230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.831079 seconds.
+  path: Assets/Character/DeadPool.fbx
+  artifactKey: Guid(d61810b13182d3d4babac84410e8a819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/DeadPool.fbx using Guid(d61810b13182d3d4babac84410e8a819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd74d2a0a5990ea0ba86b984ede339565') in 0.095528 seconds 
