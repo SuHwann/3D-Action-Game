@@ -509,12 +509,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
-  jumpForce: 3000
+  jumpForce: 500
   groundCheck: {fileID: 1218550222}
   groundCheckRadius: 0.1
   whatIsGround:
     serializedVersion: 2
-    m_Bits: 2147483647
+    m_Bits: 64
 --- !u!143 &2013900577
 CharacterController:
   m_ObjectHideFlags: 0

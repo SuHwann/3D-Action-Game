@@ -13,7 +13,7 @@ public class Player : MonoBehaviour
     private Animator animator; // Reference to the Animator component
     private CharacterController controller; // Reference to the CharacterController component
     private Vector3 movement; // Vector to store the character's movement
-    private float gravity = 10f; // Gravity value to apply to the character
+    private float gravity = 150f; // Gravity value to apply to the character
     private Vector3 moveDirection;
     // Start is called before the first frame update
     void Start()
@@ -56,15 +56,11 @@ public class Player : MonoBehaviour
         // Jump action
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
-            animator.SetTrigger("jump"); // Set the "jump" trigger in the Animator to play the "Jump" animation
+            animator.SetBool("isJump",true); // Set the "jump" trigger in the Animator to play the "Jump" animation
             movement.y = Mathf.Sqrt(jumpForce * 2f * gravity); // Calculate the upward velocity needed for the character to jump
         }
-
         // Set the "jump" parameter in the Animator to false when the character is grounded
-        if (isGrounded)
-        {
-            animator.SetBool("jump", false);
-        }
+        animator.SetBool("isJump", !isGrounded);
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             Vector3 playerDirection = transform.forward;
